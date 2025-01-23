@@ -1,22 +1,22 @@
 [ejs.landing]
-updateAvailableTooltip = "Update Available"
-usernamePlaceholder = "Username"
+updateAvailableTooltip = "Mise à jour disponible"
+usernamePlaceholder = "Nom d'utilisateur"
 usernameEditButton = "Edit"
-settingsTooltip = "Settings"
-serverStatus = "SERVER"
-serverStatusPlaceholder = "OFFLINE"
+settingsTooltip = "Paramétre"
+serverStatus = "SERVEUR"
+serverStatusPlaceholder = "FERMER"
 mojangStatus = "MOJANG STATUS"
 mojangStatusTooltipTitle = "Services"
 mojangStatusNETitle = "Non&nbsp;Essential"
-newsButton = "NEWS"
-launchButton = "PLAY"
-launchButtonPlaceholder = "&#8226; No Server Selected"
-launchDetails = "Please wait.."
-newsNavigationStatus = "{currentPage} of {totalPages}"
-newsErrorLoadSpan = "Checking for News.."
-newsErrorFailedSpan = "Failed to Load News"
-newsErrorRetryButton = "Try Again"
-newsErrorNoneSpan = "No News"
+newsButton = "NOUVEAUTES"
+launchButton = "JOUER"
+launchButtonPlaceholder = "&#8226; Choisisé un serveur"
+launchDetails = "Veillez patienté.."
+newsNavigationStatus = "{currentPage} de {totalPages}"
+newsErrorLoadSpan = "En train d'inspecté les nouveautés.."
+newsErrorFailedSpan = "ERREUR AVEC LES NOVEAUTES"
+newsErrorRetryButton = "Veuillez réessayer"
+newsErrorNoneSpan = "Accune nouveautés"
 
 [ejs.login]
 loginCancelText = "Cancel"
@@ -124,7 +124,7 @@ whatsNew = "What's New"
 updateReleaseNotes = "Update Release Notes"
 
 [ejs.waiting]
-waitingText = "Waiting for Microsoft.."
+waitingText = "Attente de la réponse de Microsoft.."
 
 [ejs.welcome]
 continueButton = "CONTINUE"
@@ -219,75 +219,75 @@ joined = "Exploring the Realm!"
 dismiss = "Dismiss"
 
 [js.settings.fileSelectors]
-executables = "Executables"
-allFiles = "All Files"
+executables = "Exécutables"
+allFiles = "Tous les fichiers"
 
 [js.settings.mstfLogin]
-errorTitle = "Something Went Wrong"
-errorMessage = "Microsoft authentication failed. Please try again."
+errorTitle = "Quelque chose s'est mal passé"
+errorMessage = "L'authentification Microsoft a échoué. Veuillez réessayer."
 okButton = "OK"
 
 [js.settings.mstfLogout]
-errorTitle = "Something Went Wrong"
-errorMessage = "Microsoft logout failed. Please try again."
+errorTitle = "Quelque chose s'est mal passé"
+errorMessage = "La déconnexion de Microsoft a échoué. Veuillez réessayer."
 okButton = "OK"
 
 [js.settings.authAccountSelect]
-selectButton = "Select Account"
-selectedButton = "Selected Account &#10004;"
+selectButton = "Sélectionnez un compte"
+selectedButton = "Sélectionnez un compte &#10004;"
 
 [js.settings.authAccountLogout]
-lastAccountWarningTitle = "Warning<br>This is Your Last Account"
-lastAccountWarningMessage = "In order to use the launcher you must be logged into at least one account. You will need to login again after.<br><br>Are you sure you want to log out?"
-confirmButton = "I'm Sure"
-cancelButton = "Cancel"
+lastAccountWarningTitle = "ATTENTION<br>Ceci est votre dernier compte"
+lastAccountWarningMessage = "Pour utiliser le lanceur, vous devez être connecté à au moins un compte. Vous devrez ensuite vous reconnecter.<br><br>Êtes-vous sûr de vouloir vous déconnecter ?"
+confirmButton = "Je suis sur"
+cancelButton = "Annulé"
 
 [js.settings.authAccountPopulate]
-username = "Username"
+username = "NOM D'UTILISATEUR"
 uuid = "UUID"
-selectAccount = "Select Account"
-selectedAccount = "Selected Account ✓"
-logout = "Log Out"
+selectAccount = "Choisiser un Compte"
+selectedAccount = "Choisiser un Compte ✓"
+logout = "Déconnexion"
 
 [js.settings.dropinMods]
-removeButton = "Remove"
-deleteFailedTitle = "Failed to Delete<br>Drop-in Mod {fullName}"
-deleteFailedMessage = "Make sure the file is not in use and try again."
-failedToggleTitle = "Failed to Toggle<br>One or More Drop-in Mods"
-okButton = "Okay"
+removeButton = "Enlevé"
+deleteFailedTitle = "Échec de la suppression<br>Mod Drop-in {fullName}"
+deleteFailedMessage = "Assurez-vous que le fichier n'est pas utilisé et réessayez."
+failedToggleTitle = "Échec du basculement<br>d'un ou plusieurs modules instantanés"
+okButton = "OK"
 
 [js.settings.serverListing]
-mainServer = "Main Server"
+mainServer = "MCE Serveur"
 
 [js.settings.java]
 selectedJava = "Selected: Java {version} ({vendor})"
-invalidSelection = "Invalid Selection"
+invalidSelection = "Sélection invalide"
 requiresJava = "Requires Java {major} x64."
-availableOptions = "Available Options for Java {major} (HotSpot VM)"
+availableOptions = "Options disponibles pour Java {major} (HotSpot VM)"
 
 [js.settings.about]
-preReleaseTitle = "Pre-release"
-stableReleaseTitle = "Stable Release"
-releaseNotesFailed = "Failed to load release notes."
+preReleaseTitle = "Pré-version"
+stableReleaseTitle = "Version stable"
+releaseNotesFailed = "Échec du chargement des notes de version."
 
 [js.settings.updates]
-newReleaseTitle = "New Release Available"
-newPreReleaseTitle = "New Pre-release Available"
-downloadingButton = "Downloading.."
-downloadButton = 'Download from GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Close the launcher and run the dmg to update.</span>'
-latestVersionTitle = "You Are Running the Latest Version"
-checkForUpdatesButton = "Check for Updates"
-checkingForUpdatesButton = "Checking for Updates.."
+newReleaseTitle = "Nouvelle version disponible"
+newPreReleaseTitle = "Nouvelle pré-version disponible"
+downloadingButton = "Téléchargement.."
+downloadButton = 'Télécharger depuis GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Fermez le lanceur et exécutez le dmg pour mettre à jour.</span>'
+latestVersionTitle = "Vous utilisez la dernière version"
+checkForUpdatesButton = "Vérifier les mises à jour"
+checkingForUpdatesButton = "Vérification des mises à jour.."
 
 [js.settings.msftLogin]
-errorTitle = "Microsoft Login Failed"
-errorMessage = "We were unable to authenticate your Microsoft account. Please try again."
+errorTitle = "Échec de la connexion Microsoft"
+errorMessage = "Nous n'avons pas pu authentifier votre compte Microsoft. Veuillez réessayer."
 okButton = "OK"
 
 [js.uibinder.startup]
 fatalErrorTitle = "Fatal Error: Unable to Load Distribution Index"
 fatalErrorMessage = "A connection could not be established to our servers to download the distribution index. No local copies were available to load. <br><br>The distribution index is an essential file which provides the latest server information. The launcher is unable to start without it. Ensure you are connected to the internet and relaunch the application."
-closeButton = "Close"
+closeButton = "Fermer"
 
 [js.uibinder.validateAccount]
 failedMessageTitle = "Failed to Refresh Login"
