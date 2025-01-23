@@ -24,24 +24,24 @@
           "autoconnect": true,
           "modules": [
             {
-              "id": "net.fabricmc:mohist-loader:0.15.0",
-              "name": "Fabric (fabric-loader)",
-              "type": "Fabric",
+              "id": "net.mohistmc:mohist-loader:0.15.0",
+              "name": "mohist (mohist-loader)",
+              "type": "mohist",
               "artifact": {
               "size": 1196222,
               "MD5": "a43d5a142246801343b6cedef1c102c4",
-              "url": "http://localhost:8080/repo/lib/net/fabricmc/fabric-loader/0.15.0/fabric-loader-0.15.0.jar"
+              "url": "https://mohistmc.com/api/v2/projects/mohist/1.7.10/builds/40/mohist-1.7.10-40-server.jar"
               }
             },
             {
-              "id": "com.westeroscraft:westeroscraftrp:2017-08-16",
-              "name": "WesterosCraft Resource Pack (2017-08-16)",
+              "id": "com.mce:mcemodpack:v1",
+              "name": "MCE Resource Pack (V1)",
               "type": "file",
                "artifact": {
                   "size": 45241339,
                   "MD5": "ec2d9fdb14d5c2eafe5975a240202f1a",
-                  "path": "resourcepacks/WesterosCraft.zip",
-                  "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/resourcepacks/WesterosCraft.zip"
+                  "path": "resourcepacks/MCEModPack.zip",
+                  "url": "https://filebin.net/t7hte8j5l60yxbxh/modpack.zip"
               }
           }
           ]
