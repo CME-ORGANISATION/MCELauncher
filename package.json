@@ -1,13 +1,13 @@
 {
-  "name": "helioslauncher",
+  "name": "mcelauncher",
   "version": "2.2.1",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
+  "productName": "mce Launcher",
+  "description": "Serveur MCE moddée",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
   "homepage": "https://github.com/dscalzi/HeliosLauncher",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/MCELSSS/MCELauncher/issues"
   },
   "private": true,
   "main": "index.js",
