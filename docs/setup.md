@@ -1,2 +1,2 @@
-js to exe:
+# js to exe:
 npm run dist (in terminal)
