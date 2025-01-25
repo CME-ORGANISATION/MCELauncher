@@ -3,11 +3,11 @@
   "version": "0.0.2",
   "productName": "mce Launcher",
   "description": "Serveur MCE moddées",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "author": "MCELSSS (https://github.com/MCELSSS/)",
   "license": "UNLICENSED",
   "homepage": "https://github.com/dscalzi/HeliosLauncher",
   "bugs": {
-    "url": "https://github.com/MCELSSS/MCELauncher/issues"
+    "url": "https://github.com/CME-ORGANISATION/MCELauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MCELSSS/MCELauncher.git"
+    "url": "git+https://github.com/CME-ORGANISATION/MCELauncher.git"
   }
 }
